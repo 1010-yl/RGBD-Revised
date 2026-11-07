@@ -1,0 +1,12 @@
+priority,experiment_id,variant,training_needed,purpose,status
+P0,E00,baseline,yes,修复后的RGBD基线,not_started
+P0,E01,pgdum,yes,深度先验不确定性贡献,not_started
+P0,E02,dapf,yes,难度路由贡献,not_started
+P0,E03,full,yes,完整模型贡献,not_started
+P1,E04,no_rgb_prior,yes,RGB边缘结构先验消融,not_started
+P1,E05,full_vs_soft_route,initial_checkpoint_only,硬路由与软路由差异,not_started
+P1,E06,full_noisy_test,no_retrain,深度高斯噪声与缺失鲁棒性,not_started
+P1,E07,full_three_seeds,yes,跨种子稳定性,not_started
+P1,E08,UMFNet_RGBD_reference,yes,明确归属的原始参考方法RGBD适配,not_started
+P2,E09,stage_location,yes,不同融合层级,not_started
+P2,E10,runtime_latency,no_retrain,真实推理路径FPS及GFLOPs,not_started
